@@ -1,0 +1,217 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 01, 2025. 21:28:50.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/projects/NRES/sdemodel_nres_msh.tdr
+create_plot -dataset sdemodel_nres_msh
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+#-> Plot_sdemodel_nres_msh
+#-> sdemodel_nres_msh
+load_file /home/sentaurus/STDB/projects/NRES/sdemodel_nres_plot.tdr
+create_plot -dataset sdemodel_nres_plot
+select_plots {Plot_sdemodel_nres_plot}
+#-> Plot_sdemodel_nres_plot
+#-> Plot_sdemodel_nres_plot
+#-> sdemodel_nres_plot
+set_field_prop -plot Plot_sdemodel_nres_plot -geom sdemodel_nres_plot ElectrostaticPotential -show_bands
+#-> 0
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -show_mesh
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -hide_mesh
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -translucency_on
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -translucency_off
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -translucency_on
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -translucency_off
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -show_mesh
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -hide_mesh
+#-> 0
+set_material_prop {Silicon} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -show_mesh
+#-> 0
+set_material_prop {Silicon} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -hide_mesh
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -show_mesh
+#-> 0
+set_material_prop {Contact} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -hide_mesh
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+move_plot -plot Plot_sdemodel_nres_msh -position {-2.03819 -1.15599}
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+set_material_prop {Silicon} -plot Plot_sdemodel_nres_msh -geom sdemodel_nres_msh -show_mesh
+#-> 0
+move_plot -plot Plot_sdemodel_nres_msh -position {-0.575763 1.05557}
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+move_plot -plot Plot_sdemodel_nres_msh -position {-1.1936 -0.0480644}
+#-> 0
+select_plots {Plot_sdemodel_nres_plot}
+#-> Plot_sdemodel_nres_plot
+set_field_prop -plot Plot_sdemodel_nres_plot -geom sdemodel_nres_plot ConductionCurrentDensity-X -show_bands
+#-> 0
+set_field_prop -plot Plot_sdemodel_nres_plot -geom sdemodel_nres_plot ConductionCurrentDensity-X -hide_bands
+#-> 0
+set_field_prop -plot Plot_sdemodel_nres_plot -geom sdemodel_nres_plot EquilibriumPotential -show_bands
+#-> 0
+set_field_prop -plot Plot_sdemodel_nres_plot -geom sdemodel_nres_plot ElectrostaticPotential -show_bands
+#-> 0
+set_vector_prop -plot Plot_sdemodel_nres_plot -geom sdemodel_nres_plot ConductionCurrentDensity-V -show
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.331
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.620921
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.620921
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+move_plot -plot Plot_sdemodel_nres_plot -position {-1.70311 -1.59252}
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+move_plot -plot Plot_sdemodel_nres_plot -position {-2.35258 -0.030955}
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.21
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 1.1
+move_plot -plot Plot_sdemodel_nres_plot -position {0.328286 1.57789}
+#-> 0
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 1.1
+move_plot -plot Plot_sdemodel_nres_msh -position {0.0149221 0.134299}
+#-> 0
+select_plots {Plot_sdemodel_nres_plot}
+#-> Plot_sdemodel_nres_plot
+move_plot -plot Plot_sdemodel_nres_plot -position {-0.142963 0.402415}
+#-> 0
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+select_plots {Plot_sdemodel_nres_plot}
+#-> Plot_sdemodel_nres_plot
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+move_plot -plot Plot_sdemodel_nres_msh -position {1.22132 0.164781}
+#-> 0
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_msh -factor 0.909091
+move_plot -plot Plot_sdemodel_nres_msh -position {2.11556 0.17}
+#-> 0
+select_plots {Plot_sdemodel_nres_plot}
+#-> Plot_sdemodel_nres_plot
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.751315
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.826446
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+zoom_plot -plot Plot_sdemodel_nres_plot -factor 0.909091
+move_plot -plot Plot_sdemodel_nres_plot -position {3.25376 0.164516}
+#-> 0
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+move_plot -plot Plot_sdemodel_nres_msh -position {0.377778 -0.0377778}
+#-> 0
+select_plots {Plot_sdemodel_nres_plot}
+#-> Plot_sdemodel_nres_plot
+exit 0
+ 

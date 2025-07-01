@@ -1,0 +1,36 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 01, 2025. 21:58:07.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/projects/NRES/sdemodel_nres_IV.pltsdemodel_nres_current.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> sdemodel_nres_IV.pltsdemodel_nres_current
+create_curve -plot Plot_1 -dataset {sdemodel_nres_IV.pltsdemodel_nres_current} -axisX {Anode OuterVoltage} -axisY {Anode TotalCurrent}
+#-> Curve_1
+load_file /home/sentaurus/STDB/projects/NRES/sdemodel_nres_IV.pltsdemodel_nres_current.plt
+#-> sdemodel_nres_IV.pltsdemodel_nres_current_2
+create_curve -plot Plot_1 -dataset {sdemodel_nres_IV.pltsdemodel_nres_current_2} -axisX {Anode OuterVoltage} -axisY {Anode TotalCurrent}
+#-> Curve_2
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 3
+#-> 0
+load_file /home/sentaurus/STDB/projects/NRES/sdemodel_nres_IV.pltsdemodel_nres_current.plt
+#-> sdemodel_nres_IV.pltsdemodel_nres_current_3
+create_curve -plot Plot_1 -dataset {sdemodel_nres_IV.pltsdemodel_nres_current_3} -axisX {Anode OuterVoltage} -axisY {Anode TotalCurrent}
+#-> Curve_3
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 3
+#-> 0
+exit 0
+ 

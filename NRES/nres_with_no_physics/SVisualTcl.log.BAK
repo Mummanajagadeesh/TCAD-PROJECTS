@@ -1,0 +1,20 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 02, 2025. 00:26:12.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/projects/NRES/nres_with_no_physics/sdemodel_nres_msh.tdr
+create_plot -dataset sdemodel_nres_msh
+select_plots {Plot_sdemodel_nres_msh}
+#-> Plot_sdemodel_nres_msh
+#-> Plot_sdemodel_nres_msh
+#-> sdemodel_nres_msh
+exit 0
+ 

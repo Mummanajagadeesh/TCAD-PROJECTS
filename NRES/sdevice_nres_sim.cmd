@@ -1,0 +1,100 @@
+File {
+    Grid = "sdemodel_nres_msh.tdr"
+    Current = "sdemodel_nres_current.plt"
+    Plot = "sdemodel_nres_plot.tdr"
+    Output = "sdemodel_nres_output.log"
+}
+
+Electrode {
+    { Name = "Anode" Voltage = 0.0 }
+    { Name = "Cathode" Voltage = 0.0 }
+}
+
+Physics {
+    Mobility (
+       DopingDependence
+        HighFieldSaturation
+    )
+    Recombination (SRH)
+    EffectiveIntrinsicDensity (
+        BandGapNarrowing (oldSlotboom)
+    )
+    Fermi
+}
+
+Plot {
+    eCurrent/Vector
+    hCurrent
+    AvalancheGeneration
+    ConductionCurrent/Vector
+    eAlphaAvalanche
+    hAlphaAvalanche
+    AugerRecombination
+    EquilibriumPotential
+    IntrinsicDensity
+    EffectiveIntrinsicDensity
+    Temperature
+    ElectricField
+    Potential
+    Doping
+    SpaceCharge
+    eBarrierTunneling
+    hBarrierTunneling
+    conductionBandEnergy
+    valenceBandEnergy
+}
+
+Math {
+    Number_of_Threads = 4
+    Iterations = 10
+    NotDamped = 20
+    RHSMin = 1e-8
+    # Extrapolate
+    Derivatives
+    AvalDerivatives
+    ErrRef(Electron) = 1e10
+    ErrRef(Hole) = 1e10
+    method = pardiso
+    # ComputeGradQuasiFermiAtContacts = UseQuasiFermi
+    transient = BE
+    # eMobilityAveraging = ElementEdge
+    # hMobilityAveraging = ElementEdge
+    # BreakCriteria (LatticeTemperature (MaxVal = 1400))
+    -CheckUndefinedModels
+}
+
+Solve {
+    Poisson
+
+    Coupled (iterations = 50) { Poisson Electron }
+    Coupled (iterations = 50) { Poisson Hole }
+    Coupled (iterations = 50) { Poisson Electron Hole }
+
+    Plot (FilePrefix = "sdemodel_nres_initial")
+
+    Quasistationary (
+        InitialStep = 1e-3
+        MinStep = 1e-7
+        MaxStep = 0.1
+        Increment = 2
+        Goal { Name = "Anode" Voltage = -10 }
+    )
+    {
+        Coupled { Poisson Electron Hole }
+    }
+
+    Plot (FilePrefix = "sdemodel_nres_VA_m3")
+    NewCurrentFile = "sdemodel_nres_IV.plt"
+
+    Quasistationary (
+        InitialStep = 1e-3
+        MinStep = 1e-7
+        MaxStep = 0.1
+        Increment = 2
+        Goal { Name = "Anode" Voltage = 10 }
+    )
+    {
+        Coupled { Poisson Electron Hole }
+    }
+}
+
