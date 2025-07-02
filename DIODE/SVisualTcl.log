@@ -1,0 +1,22 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 03, 2025. 00:50:40.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/projects/DIODE/2@plot_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> 2_plot_des
+create_curve -plot Plot_1 -dataset {2_plot_des} -axisX {Anode OuterVoltage} -axisY {Anode TotalCurrent}
+#-> Curve_1
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 3
+#-> 0
