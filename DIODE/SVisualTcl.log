@@ -2,7 +2,7 @@
 # Sentaurus Visual N-2017.09.
 # Tcl log file.
 #------------------------------------------
-# Date: Jul 03, 2025. 00:50:40.
+# Date: Jul 03, 2025. 17:01:15.
 # Version: 27.0.563 (1.563)
 # Mode: Interactive (GUI).
 # Hostname: localhost.localdomain.
@@ -18,5 +18,122 @@ select_plots {Plot_1}
 #-> 2_plot_des
 create_curve -plot Plot_1 -dataset {2_plot_des} -axisX {Anode OuterVoltage} -axisY {Anode TotalCurrent}
 #-> Curve_1
-set_curve_prop -plot Plot_1 {Curve_1} -line_width 3
+load_file /home/sentaurus/STDB/projects/DIODE/2@plot_des.plt
+#-> 2_plot_des_2
+load_file /home/sentaurus/STDB/projects/DIODE/n@node@_0000_des.tdr
+create_plot -dataset n_node__0000_des
+select_plots {Plot_n_node__0000_des}
+#-> Plot_n_node__0000_des
+#-> Plot_n_node__0000_des
+#-> n_node__0000_des
+load_file /home/sentaurus/STDB/projects/DIODE/n@node@_0002_des.tdr
+create_plot -dataset n_node__0002_des
+select_plots {Plot_n_node__0002_des}
+#-> Plot_n_node__0002_des
+#-> Plot_n_node__0002_des
+#-> n_node__0002_des
+load_file /home/sentaurus/STDB/projects/DIODE/n@node@_0004_des.tdr
+create_plot -dataset n_node__0004_des
+select_plots {Plot_n_node__0004_des}
+#-> Plot_n_node__0004_des
+#-> Plot_n_node__0004_des
+#-> n_node__0004_des
+load_file /home/sentaurus/STDB/projects/DIODE/n@node@_0006_des.tdr
+create_plot -dataset n_node__0006_des
+select_plots {Plot_n_node__0006_des}
+#-> Plot_n_node__0006_des
+#-> Plot_n_node__0006_des
+#-> n_node__0006_des
+load_file /home/sentaurus/STDB/projects/DIODE/n@node@_0008_des.tdr
+create_plot -dataset n_node__0008_des
+select_plots {Plot_n_node__0008_des}
+#-> Plot_n_node__0008_des
+#-> Plot_n_node__0008_des
+#-> n_node__0008_des
+select_plots {Plot_n_node__0000_des}
+#-> Plot_n_node__0000_des
+select_plots {Plot_n_node__0002_des}
+#-> Plot_n_node__0002_des
+select_plots {Plot_n_node__0000_des}
+#-> Plot_n_node__0000_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0008_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0008_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0008_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0008_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0008_des Plot_n_node__0006_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0006_des Plot_n_node__0008_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0008_des Plot_n_node__0006_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0006_des Plot_n_node__0008_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0006_des Plot_n_node__0008_des Plot_n_node__0004_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0004_des Plot_n_node__0006_des Plot_n_node__0008_des
+select_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0006_des Plot_n_node__0008_des Plot_n_node__0004_des}
+#-> Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0004_des Plot_n_node__0006_des Plot_n_node__0008_des
+link_plots {Plot_n_node__0000_des Plot_n_node__0002_des Plot_n_node__0004_des Plot_n_node__0006_des Plot_n_node__0008_des}
+#-> 1
+select_plots {Plot_n_node__0000_des}
+#-> Plot_n_node__0000_des
+set_field_prop -plot Plot_n_node__0000_des -geom n_node__0000_des ElectrostaticPotential -show_bands
+#-> 0
+select_plots {Plot_n_node__0004_des}
+#-> Plot_n_node__0004_des
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+zoom_plot -plot Plot_n_node__0004_des -factor 0.751315
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+set_legend_prop -plot Plot_n_node__0004_des -position {0.529897 0.8} -size {0.237394 0.3}
+#-> 0
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+set_legend_prop -plot Plot_n_node__0004_des -position {0.529897 0.8} -size {0.237394 0.3}
+#-> 0
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+set_legend_prop -plot Plot_n_node__0004_des -position {0.529897 0.8} -size {0.237394 0.3}
+#-> 0
+set_legend_prop -plot Plot_n_node__0004_des -position {0.725773 0.9075} -size {0.237394 0.3}
+#-> 0
+set_legend_prop -plot Plot_n_node__0004_des -title_font_family arial -title_font_factor 3 -title_font_color #000000 -title_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n_node__0004_des -label_font_family arial -label_font_factor 3 -label_font_color #000000 -label_font_att bold
+#-> 0
+set_legend_prop -plot Plot_n_node__0004_des -position {0.725773 1.17782} -size {0.666862 0.570324}
+#-> 0
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 1.1
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+zoom_plot -plot Plot_n_node__0004_des -factor 0.909091
+move_plot -plot Plot_n_node__0004_des -position {-0.938856 -3.45365}
+#-> 0
+set_legend_prop -plot Plot_n_node__0004_des -position {0.202062 0.900324} -size {0.666862 0.570324}
+#-> 0
+move_plot -plot Plot_n_node__0004_des -position {0.435897 -0.0335306}
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des DopingConcentration -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des ElectricField -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des ElectrostaticPotential -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des EquilibriumPotential -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des ElectrostaticPotential -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des TotalCurrentDensity -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des ElectricField -show_bands
+#-> 0
+set_field_prop -plot Plot_n_node__0004_des -geom n_node__0004_des ElectrostaticPotential -show_bands
 #-> 0

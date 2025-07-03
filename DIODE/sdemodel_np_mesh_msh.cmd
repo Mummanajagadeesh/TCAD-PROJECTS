@@ -20,7 +20,7 @@ Definitions {
     Refinement "RefinementDefinition_np_mesh" {
         MaxElementSize = ( 0.5 0.1 )
         MinElementSize = ( 0.001 0.1 )
-        RefineFunction = MaxGradient(Variable = "BoronActiveConcentration", Value = 1)
+        RefineFunction = MaxGradient(Variable = "DopingConcentration", Value = 1)
         RefineFunction = MaxLenInt(Interface("Silicon", "Contact"), Value = 0.001, factor = 2)
     }
 }

@@ -126,7 +126,7 @@ This provides fine resolution in the horizontal (x) direction, essential for res
 
 * Enable **Gradient-based refinement** as well:
 
-  * Choose `BoronActiveConcentration` as the variable.
+  * Choose `DopingConcentration` as the variable.
   * Set **Value** to `1`.
 
   This adds denser mesh wherever doping gradients are large, such as near the PN junction, enhancing accuracy of field and carrier profiles.
@@ -188,7 +188,7 @@ Definitions {
     Refinement "RefinementDefinition_np_mesh" {
         MaxElementSize = ( 0.5 0.1 )
         MinElementSize = ( 0.001 0.1 )
-        RefineFunction = MaxGradient(Variable = "BoronActiveConcentration", Value = 1)
+        RefineFunction = MaxGradient(Variable = "DopingConcentration", Value = 1)
         RefineFunction = MaxLenInt(Interface("Silicon", "Contact"), Value = 0.001, factor = 2)
     }
 }

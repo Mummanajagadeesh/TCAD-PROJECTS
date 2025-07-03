@@ -2,7 +2,7 @@
 # Sentaurus Visual N-2017.09.
 # Tcl log file.
 #------------------------------------------
-# Date: Jul 03, 2025. 00:29:05.
+# Date: Jul 03, 2025. 13:39:00.
 # Version: 27.0.563 (1.563)
 # Mode: Interactive (GUI).
 # Hostname: localhost.localdomain.
@@ -10,13 +10,41 @@
 # Kernel: 2.6.32-504.el6.x86_64.
 ###########################################
 
-load_file /home/sentaurus/STDB/projects/DIODE/2@plot_des.plt
-create_plot -1d
-select_plots {Plot_1}
-#-> Plot_1
-#-> Plot_1
-#-> 2_plot_des
-create_curve -plot Plot_1 -dataset {2_plot_des} -axisX {Anode OuterVoltage} -axisY {Anode TotalCurrent}
+load_file /home/sentaurus/STDB/projects/DIODE/@drdata_des.tdr
+create_plot -dataset _drdata_des
+select_plots {Plot__drdata_des}
+#-> Plot__drdata_des
+#-> Plot__drdata_des
+#-> _drdata_des
+set_field_prop -plot Plot__drdata_des -geom _drdata_des ElectrostaticPotential -show_bands
+#-> 0
+create_cutline -plot Plot__drdata_des -type y -at 0.534731
+#-> C1(_drdata_des)
+create_plot -dataset C1(_drdata_des) -1d
+select_plots {Plot_C1(_drdata_des)}
+#-> Plot_C1(_drdata_des)
+#-> Plot_C1(_drdata_des)
+create_curve -plot Plot_C1(_drdata_des) -dataset {C1(_drdata_des)} -axisX X -axisY ElectrostaticPotential
 #-> Curve_1
+remove_curves -plot Plot_C1(_drdata_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(_drdata_des) -dataset {C1(_drdata_des)} -axisX X -axisY EquilibriumPotential
+#-> Curve_1
+select_plots {Plot__drdata_des}
+#-> Plot__drdata_des
+set_field_prop -plot Plot__drdata_des -geom _drdata_des EquilibriumPotential -show_bands
+#-> 0
+set_field_prop -plot Plot__drdata_des -geom _drdata_des ConductionCurrentDensity-Y -show_bands
+#-> 0
+create_cutline -plot Plot__drdata_des -type y -at 0.539184
+#-> C2(_drdata_des)
+set_axis_prop -plot Plot_C1(_drdata_des) -axis y -type log
+#-> 0
+create_curve -plot Plot_C1(_drdata_des) -dataset {C2(_drdata_des)} -axisX X -axisY ConductionCurrentDensity-Y
+#-> Curve_2
+select_plots {Plot_C1(_drdata_des)}
+#-> Plot_C1(_drdata_des)
+set_legend_prop -plot Plot_C1(_drdata_des) -position {0.314637 0.245983}
+#-> 0
 exit 0
  
