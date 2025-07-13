@@ -1,0 +1,261 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 13, 2025. 17:41:59.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/projects/NMOS/@@es_tdr_des.tdr
+create_plot -dataset __es_tdr_des
+select_plots {Plot___es_tdr_des}
+#-> Plot___es_tdr_des
+#-> Plot___es_tdr_des
+#-> __es_tdr_des
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.751315
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+set_field_prop -plot Plot___es_tdr_des -geom __es_tdr_des ConductionCurrentDensity -show_bands
+#-> 0
+set_field_prop -plot Plot___es_tdr_des -geom __es_tdr_des ConductionCurrentDensity -min 100 -min_fixed
+#-> 0
+set_field_prop -plot Plot___es_tdr_des -geom __es_tdr_des ConductionCurrentDensity -max 10000 -max_fixed
+#-> 0
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.21
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+move_plot -plot Plot___es_tdr_des -position {1.2326 6.66191}
+#-> 0
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.21
+zoom_plot -plot Plot___es_tdr_des -factor 1.21
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+move_plot -plot Plot___es_tdr_des -position {-0.903598 -1.30063}
+#-> 0
+set_field_prop -plot Plot___es_tdr_des -geom __es_tdr_des eDensity -show_bands
+#-> 0
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+move_plot -plot Plot___es_tdr_des -position {-0.60368 -4.6874}
+#-> 0
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.61051
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.4641
+create_cutline -plot Plot___es_tdr_des -type y -at 10
+#-> C1(__es_tdr_des)
+create_plot -dataset C1(__es_tdr_des) -1d
+select_plots {Plot_C1(__es_tdr_des)}
+#-> Plot_C1(__es_tdr_des)
+#-> Plot_C1(__es_tdr_des)
+set_axis_prop -plot Plot_C1(__es_tdr_des) -axis y -type log
+#-> 0
+create_curve -plot Plot_C1(__es_tdr_des) -dataset {C1(__es_tdr_des)} -axisX X -axisY eDensity
+#-> Curve_1
+windows_style -style max
+#-> 0
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+set_plot_prop -plot {Plot_C1(__es_tdr_des)} -hide
+select_plots {Plot___es_tdr_des}
+#-> Plot___es_tdr_des
+#-> 0
+set_plot_prop -plot {Plot___es_tdr_des} -hide
+#-> 0
+load_file /home/sentaurus/STDB/projects/NMOS/@@es_tdr_des.tdr
+create_plot -dataset __es_tdr_des_2
+select_plots {Plot___es_tdr_des_2}
+#-> Plot___es_tdr_des_2
+#-> Plot___es_tdr_des_2
+#-> __es_tdr_des_2
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.751315
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des_2 -factor 1.1
+zoom_plot -plot Plot___es_tdr_des_2 -factor 1.21
+zoom_plot -plot Plot___es_tdr_des_2 -factor 1.1
+zoom_plot -plot Plot___es_tdr_des_2 -reset
+zoom_plot -plot Plot___es_tdr_des_2 -reset
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.620921
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.683013
+zoom_plot -plot Plot___es_tdr_des_2 -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des_2 -factor 1.1
+zoom_plot -plot Plot___es_tdr_des_2 -factor 1.4641
+zoom_plot -plot Plot___es_tdr_des_2 -factor 1.21
+set_plot_prop -plot {Plot___es_tdr_des} -show
+#-> 0
+set_plot_prop -plot {Plot___es_tdr_des_2} -hide
+select_plots {Plot___es_tdr_des}
+#-> Plot___es_tdr_des
+#-> 0
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.751315
+zoom_plot -plot Plot___es_tdr_des -factor 0.909091
+zoom_plot -plot Plot___es_tdr_des -factor 0.826446
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+zoom_plot -plot Plot___es_tdr_des -factor 1.1
+set_plot_prop -plot {Plot_C1(__es_tdr_des)} -show
+#-> 0
+set_plot_prop -plot {Plot___es_tdr_des} -hide
+select_plots {Plot_C1(__es_tdr_des)}
+#-> Plot_C1(__es_tdr_des)
+#-> 0
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.8
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.8
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -reset
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.3
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.8
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.3
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+move_plot -plot Plot_C1(__es_tdr_des) -position {0.00656664 -2.44874e-25}
+#-> 0
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.3
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.3
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.3
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.2
+zoom_plot -plot Plot_C1(__es_tdr_des) -reset
+zoom_plot -plot Plot_C1(__es_tdr_des) -reset
+zoom_plot -plot Plot_C1(__es_tdr_des) -reset
+set_plot_prop -plot {Plot___es_tdr_des} -show
+#-> 0
+set_plot_prop -plot {Plot_C1(__es_tdr_des)} -hide
+select_plots {Plot___es_tdr_des}
+#-> Plot___es_tdr_des
+#-> 0
+set_plot_prop -plot {Plot_C1(__es_tdr_des)} -show
+#-> 0
+set_plot_prop -plot {Plot___es_tdr_des} -hide
+select_plots {Plot_C1(__es_tdr_des)}
+#-> Plot_C1(__es_tdr_des)
+#-> 0
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 1.1
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.8
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+zoom_plot -plot Plot_C1(__es_tdr_des) -factor 0.9
+exit 0
+ 

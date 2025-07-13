@@ -1,0 +1,34 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Jul 13, 2025. 17:37:27.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/projects/NMOS/nmos_IV@IV_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> nmos_IV_IV_des
+create_curve -plot Plot_1 -dataset {nmos_IV_IV_des} -axisX {Drain OuterVoltage} -axisY {Drain TotalCurrent}
+#-> Curve_1
+load_file /home/sentaurus/STDB/projects/NMOS/@@es_tdr_des.tdr
+create_plot -dataset __es_tdr_des
+select_plots {Plot___es_tdr_des}
+#-> Plot___es_tdr_des
+#-> Plot___es_tdr_des
+#-> __es_tdr_des
+select_plots {Plot_1}
+#-> Plot_1
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+exit 0
+ 
