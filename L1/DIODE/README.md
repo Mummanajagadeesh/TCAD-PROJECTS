@@ -425,3 +425,33 @@ Plot (FilePrefix = "n@node@" Time = (range = (0 1) Intervals = 8) NoOverwrite)
 * `CurrentPlot` tracks the current over the bias sweep — useful for IV curve generation.
 * `Plot` periodically saves detailed simulation snapshots (8 total over the 0–1 range). `n@node@` allows dynamic filename expansion, and `NoOverwrite` avoids overwriting existing data.
 
+
+<br><br><br>
+
+# RESULTS
+
+<h2 align="center">MESH</h2>
+
+<p align="center">
+  <img src="pn_mesh.png" alt="MESH DIAGRAM" width="400"/>
+  <img src="pn_mesh_dist_jn.png" alt="MESH ZOOMED" width="400"/>
+</p>
+
+<h2 align="center">DOPING CONC</h2>
+
+<p align="center">
+  <img src="pn_dopconc.png" alt="DOPING" width="400"/>
+</p>
+
+<h2 align="center">ELECTRIC POTENTIAL</h2>
+
+<p align="center">
+  <img src="pn_0_2_elecpot.png" alt="ELECPOT" width="400"/>
+</p>
+
+<h2 align="center">IV CHARACTERISTICS</h2>
+
+<p align="center">
+  <img src="iv_charac.png" alt="IV CHARAC" width="400"/>
+</p>
+

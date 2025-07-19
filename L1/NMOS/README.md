@@ -421,3 +421,50 @@ Solve {
 * This simulates **output characteristics (ID–VD)** at fixed `V_GS = 2.5 V`.
 * Results are stored in `nmos_IV` and can be plotted to extract transfer/output characteristics.
 
+
+
+<br><br><br>
+
+# RESULTS
+
+<h2 align="center">NMOS Structure</h2>
+
+<p align="center">
+  <img src="nmos.png" alt="NMOS Structure" width="400"/>
+</p>
+
+<h2 align="center">NMOS Mesh</h2>
+
+<p align="center">
+  <img src="nmos_mesh.png" alt="NMOS Mesh" width="400"/>
+</p>
+
+<h2 align="center">IV Characteristics</h2>
+
+<p align="center">
+  <img src="iv-drain.png" alt="IV Drain" width="400"/>
+</p>
+
+<h2 align="center">Electron Density</h2>
+
+<p align="center">
+  <img src="edensity.png" alt="Electron Density" width="400"/>
+</p>
+
+<h2 align="center">Electron Density — Range: 100 to 10k</h2>
+
+<p align="center">
+  <img src="edensity_range_100_10k.png" alt="Electron Density Range" width="400"/>
+</p>
+
+<h2 align="center">Electron Density Cutline (Y-axis)</h2>
+
+<p align="center">
+  <img src="edensity_cutline_y.png" alt="Electron Density Cutline Y" width="400"/>
+</p>
+
+<h2 align="center">Contacts</h2>
+
+<p align="center">
+  <img src="contacts.png" alt="Contacts" width="400"/>
+</p>

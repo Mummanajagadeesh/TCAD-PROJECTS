@@ -1,0 +1,4 @@
+# *.log
+# *.log.BAK
+# *.log.*.gz    
+# *.cmd-

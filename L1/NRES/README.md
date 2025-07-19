@@ -389,3 +389,40 @@ Performs a quasistatic voltage sweep on the `Anode` contact:
 Performs a second sweep from the last bias (−10V) up to `+10V` on the `Anode`. All the solver settings remain the same.
 
 This full sweep from −10V to +10V simulates the **full IV behavior** of the resistor, giving insight into its linearity and resistance.
+
+<br><br><br>
+
+# RESULTS
+
+<h2 align="center">I–V Characteristics (All Modes)</h2>
+
+<p align="center">
+  <img src="plot_of_IV.png" alt="IV plot showing all 3 modes" width="400"/>
+</p>
+
+<p align="center">
+  <em>IV plot showing all three simulation modes:<br>
+  • No physics<br>
+  • With doping dependency<br>
+  • With doping dependency and velocity saturation</em>
+</p>
+
+<h2 align="center">Electric Potential Distribution</h2>
+
+<p align="center">
+  <img src="mesh_elecpot.png" alt="Electric Potential Distribution" width="400"/>
+</p>
+
+<p align="center">
+  <em>Mesh showing electric potential variation across the device</em>
+</p>
+
+<h2 align="center">Electric Potential – Zoomed with Field Directions</h2>
+
+<p align="center">
+  <img src="mesh_elecpot_zoom.png" alt="Zoomed Electric Potential" width="400"/>
+</p>
+
+<p align="center">
+  <em>Zoomed-in view highlighting potential gradients and field directions</em>
+</p>
