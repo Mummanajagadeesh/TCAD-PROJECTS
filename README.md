@@ -24,9 +24,13 @@ More realistic, industry-style device modeling:
 
 The focus is on layout and doping realism — not full fabrication process simulation — to approximate real-world CMOS flows while keeping simulations efficient
 
+**SProcess is not used in L2; structures are manually defined in SDE without process step modeling.**
+
+
 ## Tools
 
 - **SDE (Sentaurus Device Editor)** – device structure creation and doping definition  
 - **SDEVICE** – simulating electrical behavior and solving semiconductor equations  
 - **SVISUAL** – visualizing results like potential, doping, and carrier densities  
 - **SWB (Sentaurus Workbench)** – managing and running TCAD simulation projects
+- **SPROCESS** – simulating semiconductor fabrication steps like oxidation, implantation, and diffusion
