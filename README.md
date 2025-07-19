@@ -2,6 +2,9 @@
 
 This repository contains simulation files, documentation, and results for semiconductor devices modeled using TCAD tools
 
+> **Technology Computer-Aided Design (TCAD)** involves using physics-based simulations to design, analyze, and optimize semiconductor devices and fabrication processes. Tools like Synopsys TCAD enable accurate modeling of doping, electric fields, carrier transport, and device behavior, making them essential for modern VLSI and CMOS technology development
+
+
 ## L1
 
 Basic device structures:
@@ -20,3 +23,10 @@ More realistic, industry-style device modeling:
 - Doping profiles use **analytical/Gaussian functions** to model realistic junction grading and diffusion behavior
 
 The focus is on layout and doping realism — not full fabrication process simulation — to approximate real-world CMOS flows while keeping simulations efficient
+
+## Tools
+
+- **SDE (Sentaurus Device Editor)** – device structure creation and doping definition  
+- **SDEVICE** – simulating electrical behavior and solving semiconductor equations  
+- **SVISUAL** – visualizing results like potential, doping, and carrier densities  
+- **SWB (Sentaurus Workbench)** – managing and running TCAD simulation projects
