@@ -30,7 +30,7 @@ The focus is on layout and doping realism — not full fabrication process simul
 ## Tools
 
 - **SPROCESS** – simulating semiconductor fabrication steps like oxidation, implantation, and diffusion  
-- **SDE (Sentaurus Device Editor)** – used as an alternative to SPROCESS for manual device structure and doping setup  
+- **SDE (Sentaurus Device Editor)** – used as an alternative to SPROCESS for manual device structure & doping setup  
 - **SDEVICE** – simulating electrical behavior and solving semiconductor equations  
 - **SVISUAL** – visualizing results like potential, doping, and carrier densities  
 - **SWB (Sentaurus Workbench)** – managing and running TCAD simulation projects
